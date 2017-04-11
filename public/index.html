@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fun with Canvas</title>
+    <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="/frontend.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <style>
+    #peru{
+      background-color: peru;
+    }
+    #aqua{
+      background-color: aqua;
+    }
+    #blue{
+      background-color: blue;
+    }
+    #brown{
+      background-color: brown;
+    }
+    #chartreuse{
+      background-color: chartreuse;
+    }
+    #coral{
+      background-color: coral;
+    }
+    #crimson{
+      background-color: crimson;
+    }
+    #darkgreen{
+      background-color: darkgreen;
+    }
+
+    #darkmagenta{
+      background-color: darkmagenta;
+    }
+
+    #darkolivegreen{
+      background-color: darkolivegreen;
+    }
+
+    #darkturquoise{
+      background-color: darkturquoise;
+    }
+
+    #darkviolet{
+      background-color: darkviolet;
+    }
+
+    #colors {display: inline-block;}
+
+    #eraser {
+      background-color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="400" height="400" style="border: 1px solid red"></canvas>
+    <div id="colors">
+
+    <ul>
+      <button class="color" type="button" id="peru"></button><br>
+      <button class="color" type="button" id="aqua"></button><br>
+      <button class="color" type="button" id="blue"></button><br>
+      <button class="color" type="button" id="brown"></button><br>
+      <button class="color" type="button" id="chartreuse"></button><br>
+      <button class="color" type="button" id="coral"></button><br>
+      <button class="color" type="button" id="crimson"></button><br>
+      <button class="color" type="button" id="darkgreen"></button><br>
+      <button class="color" type="button" id="darkmagenta"></button><br>
+      <button class="color" type="button" id="darkolivegreen"></button><br>
+      <button class="color" type="button" id="darkturquoise"></button><br>
+      <button class="color" type="button" id="darkviolet"></button><br>
+
+
+    </ul>
+
+  </div>
+  <div id="pensize">
+    <select class="strokesize">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="10">10</option>
+
+    </select>
+
+  </div>
+  <div id="eraser">
+
+    <button class="eraser" type="button" name="eraser">eraser</button>
+
+  </div>
+
+  </body>
+</html>
