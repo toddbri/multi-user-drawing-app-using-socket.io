@@ -7,7 +7,7 @@ $(function () {
   var lasty = -1;
   var socket = io();
   ctxcolor = '#000000';
-  var penSize = 5;
+  var penSize = 1;
   var canvasTopOffset = $('canvas').offset().top;
   var canvasLeftOffset = $('canvas').offset().left;
 
