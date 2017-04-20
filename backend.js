@@ -12,7 +12,7 @@ io.on('connection', function(socket){
 
 });
 
-var port = 8000;
+var port = 5003;
 http.listen(port, function(){
   console.log('listening on port: ' + port);
 });
