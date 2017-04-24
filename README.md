@@ -1,6 +1,7 @@
 # Multiuser Drawing Application
 ---
-## [Live Demo](http://drawing.briley.org)
+## [Live Site](http://drawing.briley.org)
+
 
 ## What It Is
 An application that allows multiple users to draw on a canvas at the same time using a browser.
@@ -17,7 +18,7 @@ An application that allows multiple users to draw on a canvas at the same time u
 The application allows each user to choose a separate drawing color, and pen width.
 
 <br><br>
-![Sample Usage](https://github.com/toddbri/chat-app-using-socket.io/blob/master/screenshots/chatapp.png)
+![Sample Usage](https://github.com/toddbri/multi-user-drawing-app-using-socket.io/blob/master/screenshots/drawapp.png)
 
 
 ## Challenges
