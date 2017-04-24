@@ -16,6 +16,8 @@ An application that allows multiple users to draw on a canvas at the same time u
 ## Overview
 The application allows each user to choose a separate drawing color, and pen width.
 
+<br><br>
+![Sample Usage](https://github.com/toddbri/chat-app-using-socket.io/blob/master/screenshots/chatapp.png)
 
 
 ## Challenges
